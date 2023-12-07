@@ -1,4 +1,5 @@
 import './App.css';
+import ClassSelectMenu from './components/ClassSelectMenu';
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <h1>
         raf pugs
       </h1>
+      <ClassSelectMenu />
     </div>
   );
 }
