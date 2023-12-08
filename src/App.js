@@ -1,5 +1,6 @@
 import './App.css';
 import ClassSelectMenu from './components/ClassSelectMenu';
+import UsernameEntry from './components/UsernameEntry';
 
 function App() {
   return <>
@@ -7,6 +8,8 @@ function App() {
         raf pugs
     </h1>
     
+    <UsernameEntry />
+
     <div className="App">
       <ClassSelectMenu />
       

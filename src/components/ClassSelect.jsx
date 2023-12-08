@@ -7,7 +7,9 @@ function ClassSelect(props) {
   }
 
   function onButtonClick(ev) {
-    console.log(props.class)
+    if(props.class === "Engi") {
+      window.location.href = "/something-malicious-is-brewing.gif"
+    }
   }
 
   return <div className={`ClassSelectContainer`}>

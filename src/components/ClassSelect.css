@@ -7,4 +7,5 @@ button.ClassSelect {
   font-size: 14pt;
   border: 4px solid rgb(179, 65, 23);
   border-radius: 5px;
+  cursor: pointer;
 }

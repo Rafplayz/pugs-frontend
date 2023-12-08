@@ -1,7 +1,7 @@
 import ClassSelect from "./ClassSelect";
 import './ClassSelectMenu.css';
 
-function ClassSelectMenu(props) {
+function ClassSelectMenu() {
   return (
     <div className="ClassSelectMenu">
       <ClassSelect class="Scout" />
