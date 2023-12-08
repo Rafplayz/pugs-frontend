@@ -2,14 +2,16 @@ import './App.css';
 import ClassSelectMenu from './components/ClassSelectMenu';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>
+  return <>
+    <h1 className="title">
         raf pugs
-      </h1>
+    </h1>
+    
+    <div className="App">
       <ClassSelectMenu />
+      
     </div>
-  );
+  </>;
 }
 
 export default App;
